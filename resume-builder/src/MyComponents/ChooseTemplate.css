@@ -1,0 +1,48 @@
+.card:hover{
+    box-shadow: 0 2px 20px gray;
+}
+
+.heading7{
+    font-size: 50px;
+    padding: 20px;
+    text-align: center;
+    font-family: 'Lobster', cursive;
+}
+.wrapper{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(12rem,16rem));
+    gap: 2rem;
+    justify-content: center;
+    
+}
+
+.card{
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    cursor: pointer;
+    transition: transform 200ms ease-in;
+    width: 100%;
+    margin-bottom: 20px;
+}
+.card_img{
+    height: 21rem;
+    width: 100%;
+    object-fit: fill;
+    border-radius: 0.3rem;
+}
+
+.title{
+    padding: 0.7rem;
+}
+
+.description{
+    padding: 0 1rem;
+}
+
+.btn{
+    align-self: center;
+    margin-bottom: 10px;
+}

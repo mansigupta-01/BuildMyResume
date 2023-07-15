@@ -1,0 +1,35 @@
+.examples-heading{
+    justify-content: center;
+    margin: auto;
+    text-align: center;
+    font-size: 50px;
+    padding-top: 20px;
+    font-family: 'Lobster', cursive;
+}
+.examples-text{
+    text-align: center;
+    font-size: larger;
+    font-family: 'Domine', serif;
+}
+#carouselExampleControls{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F5F5F5;
+    
+}
+.d-block{
+    width:400px;
+    height:500px;
+    margin: auto;
+    padding: 20px;
+}
+.d-block:hover{
+    box-shadow: 0 2px 20px gray;
+}
+.carousel-control-prev{
+     background-color: #151D3B;
+}
+.carousel-control-next{
+    background-color: #151D3B;
+}

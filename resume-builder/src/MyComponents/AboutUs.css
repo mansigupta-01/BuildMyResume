@@ -1,0 +1,22 @@
+.font-link{
+    font-family: 'Lobster', cursive;
+}
+.font-link1{
+    font-family: 'Abril Fatface', cursive;
+}
+.font-link2{
+    font-size: large;
+    font-family: 'Domine', serif;
+    text-align: justify;
+}
+.comptext{
+    display:flex;
+    flex-direction: row;
+    width: 100%;
+    padding: 10px;
+}
+.img_contact{
+    padding: 10px;
+    height: 100%;
+    width: 100%;
+}

@@ -1,0 +1,135 @@
+
+.resume-container{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    height: 10%;
+    min-height: fit-content;
+    background-image: url('../asset/S2.jpg'); 
+}
+.resume-parent{
+    display: flex;
+    align-items: center;
+    color: aliceblue;
+}
+.resume-details-name{
+    font-size: 24px;
+    font-family: "Poppins SemiBold";
+}
+.resume-details-role{
+    display: flex;
+    flex-direction: column;
+    margin: 14px 0 24px 0;
+}
+.resume-details-role h1{
+font-size: 40px;
+font-family: "cursive";
+}
+.primary-text{
+    font-size: 50px;
+    color: (--white);
+}
+.highlighted-text{
+    color: var( --dark-orange);
+}
+.resume-role-tagline{
+    font-size: 19px;
+    margin: 5px 0 0 0;
+font-family: "Poppins Light";
+}
+
+.resume-options .highlighted-btn{
+    margin: 0 0 0 28px;
+    background-color: cornsilk;
+    color: #111;
+}
+.resume-picture{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 1px 0px 0px var(--white);
+    border-radius: 50%;
+    height: 380px;
+    width: 380px;
+    margin: 0 0px 0 100px;
+}
+.resume-picture-background{
+    height: 92%;
+    width: 92%;
+     background-image: url("../asset/profile-photo.jpg"); 
+    background-size: cover;
+    border-radius: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.resume-picture-background:hover {
+    transform:scale(1.07) ;
+    transition: 1s ease-out;
+}
+.colz .colz-icon i {
+    color: white;
+    padding: 8px;
+    padding-left: 0px;
+}
+.colz .colz-icon i:hover{
+    transform: scale(1.5);
+}
+
+@media screen and (max-width: 1110px) {
+    .resume-picture{
+        margin: 0 0px 0 80px;
+
+    }
+    .resume-details-name{
+        font-size: 20px;
+    }
+    .resume-details-role .primary-text{
+        font-size: 12px;
+    }
+    .resume-options .btn{
+        width: 120px;
+        padding: 11px 0;
+        z-index: 700;
+    }
+}
+@media screen and (max-width: 910px){
+    .resume-picture{
+        height: 320px;
+        width: 320px;
+        margin: 0 0 0 4px;
+    }
+}
+@media screen and (max-width: 810px){
+    .resume-picture{
+        margin: 0 !important;
+    }
+    .resume-parent{
+        flex-direction: column-reverse;
+        margin: 40px 0 0 0;
+    }
+    .resume-options{
+        display: flex;
+        justify-content: space-between;
+    }
+    .resume-details{
+        margin:25px 0 0;
+    }
+    .resume-options .highlighted-btn{
+        margin: 0 !important;
+    }
+    .resume-options, .resume-details-role{
+        text-align: center;
+    }
+
+}
+@media screen and (max-width: 375px){
+    .resume-picture{
+        height: 275px;
+        width: 275px;
+        margin-top: -90px;
+    }
+    .resume-details{
+        width: 90%;
+    }
+}

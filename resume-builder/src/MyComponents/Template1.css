@@ -1,0 +1,271 @@
+.container{
+  size: A4;
+  min-width: 650px;
+  max-width: 850px;
+  margin: 0 auto;
+  flex: 1.2;
+  /* height: fit-content; */
+  min-height: 650px;
+  /* max-height: 700px; */
+  box-shadow: 1px 1px 4px rgba(0, 0, 0 ,0.2);
+  --color: #239ce2;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+p{
+margin-bottom: 0%;
+}
+/* .temp1_img {
+  
+padding:10px;  
+border-radius:50% 50% 50% 50%;
+height:260px; 
+width:280px;
+  
+} */
+
+.header1{
+  display: flex;
+  flex-direction: column;
+  /* background-color: #F48FB1; */
+  padding: 10px;
+}
+
+.header1 .heading1{
+  font-size: 2.3rem;
+  font-weight: 500;
+  text-transform: capitalize;
+  font-family: 'Karla', sans-serif;
+}
+
+.header1 .subHeading1{
+  /* color: var(--color); */
+ color: var(--color);
+  font-weight: 500;
+  font-size: 1.1rem;
+}
+/*     display: flex;
+    flex-direction: column;
+    gap: 5px;
+    flex-wrap: wrap;
+    row-gap: 10px; 
+    margin-top: 15px; 
+    color: #fff;
+    /* text-align: center; */
+    /* margin:auto;
+    padding-left: 2px; */ 
+
+.col1 .links1{
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  flex-wrap: wrap;
+  row-gap: 10px; 
+  margin-top: 5px; 
+  color: #fff;
+  top:0;
+  
+  /* text-align: center; */
+  padding-left: 2px;
+  padding-right: 2px;
+  /* margin-right: 5px; */
+  /* margin-left: auto;
+  margin-right: auto; */
+  margin:auto;
+}
+.col1 .links1 .p{
+margin-bottom: 0rem;
+}
+.col1 .link{
+  font-size: 0.875rem;
+ 
+  cursor:pointer;
+  display:flex;
+  color: #fff;
+}
+.fa-solid,.fa-brands
+{
+padding-right: 5px;
+}
+
+/*  .col1 .link svg{
+color: #fff;
+height: 16px;
+width: 16px;
+padding: 10px;
+}*/
+
+
+.main1{
+  display: flex;
+  gap: 5px;
+  flex-direction: row;
+}
+
+.col1{
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  background-color: #01579B ;
+/* margin-top: 0%;
+margin-bottom: 0%; */
+
+}
+
+.col2{
+  display: flex;
+  float: right;
+  flex: 1.7;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.section .sectionTitle{
+  font-size: 1.1rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+  width: 90%;
+  margin: auto;
+  font-family: 'Roboto Slab', serif;
+  /* border-bottom: 1px solid #000; */
+}
+
+.col1 .sectionTitle{
+background-color: #fff;
+color: #01579B;
+}
+
+.col2 .sectionTitle{
+background-color: #01579B;
+color: #fff;
+}
+
+.section .content{
+  display: flex;
+  flex-direction: column;
+  gap: 10px; 
+  padding: 5px 0;
+}
+
+.section .content .item {
+  border-bottom: 1px dotted darkgreen;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  padding-bottom: 10px;
+}
+.section .skill,.lang .item .point{
+padding-bottom: 0%;
+border-bottom: none;
+}
+
+.col1 .content{
+color: #fff;
+}
+.lang .content .item{
+margin-bottom: 0%;
+border-bottom: none;
+padding-bottom: 0px;
+gap:0rem;
+}
+.lang .content .item .point{
+list-style: none;
+text-align: center;
+color: #fff;
+}
+
+.certificate .content .item{
+border-bottom: #fff;
+padding-left: 10px;
+}
+
+.certificate .content .item .link{
+color: #fff;
+}
+.content .item .overview{
+margin-bottom: 0%;
+}
+
+.skill .content .item{
+margin-bottom: 0%;
+border-bottom: none;
+padding-bottom: 0px;
+gap:0rem;
+}
+.skill .content .item .point{
+list-style: none;
+text-align: center;
+color: #fff;
+}
+
+.section .content .item:last-child {
+  border-bottom: none;
+}
+
+.content .title {
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 1.3rem;
+  text-transform: capitalize;
+  margin-bottom: 0%;
+  padding-left: 0rem;
+}
+.col2 .section .content .item{
+  padding-left: 0.7rem;
+}
+.content .subTitle {
+  font-weight: bold;
+  color: var(--color);
+  font-size: 1rem;
+  margin-bottom: 0%;
+  margin-top: 0%;
+  text-transform: capitalize;
+  line-height: 1.3rem;
+}
+
+.content .overview {
+  font-size: 0.875rem;
+}
+
+.content .link {
+  display: flex;
+  gap: 5px;
+  font-size: 0.75rem;
+  cursor: pointer;
+  color: var(--color);
+}
+.content .link svg {
+  height: 14px;
+  width: 14px;
+  color: var(--color);
+}
+
+.content .date {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  font-size: 0.875rem;
+}
+
+.content .date svg {
+  height: 14px;
+  width: 14px;
+}
+
+.content .points,
+.numbered {
+  padding-left: 18px;
+  font-size: 0.875rem;
+}
+
+.numbered li {
+  list-style-type: decimal;
+}
+
+.hidden {
+  display: none;
+}

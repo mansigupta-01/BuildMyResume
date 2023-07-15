@@ -1,0 +1,47 @@
+.body {
+  font-family: Georgia, serif;
+}
+/* 
+.label {
+  display: flex;
+  flex-direction: row;
+  font-family: 'Libre Bodoni', serif;
+  /* text-align: right; */
+  /* width: 200px;
+  row-gap: 10px; */
+  /* line-height: 46px; */
+  /* margin-bottom: 20px;
+  color: #7B113A;
+}
+
+.input {
+  height: 40px;
+  flex: 0 0 100px; */
+  /* margin-left: 80px; */
+/* }
+  
+  .textarea {
+    vertical-align: middle;
+    
+  } */ 
+  
+  .flex {
+    display: flex;
+    font-size: 30px;
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+    width: max-content;
+  }
+  .Send {
+    display: block;
+    font-size: 30px;
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+    width: max-content;
+  }
+  .Msg{
+    text-align: center;
+    align-content: top;
+  }
